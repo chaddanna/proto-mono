@@ -9,5 +9,5 @@ _Monorepo Prototype for microfrontends_
 
 ### Project structure and context
 - The `container` hosts the remote apps.
+- The `container` is configured for remote apps to be framework agnostic.
 - The remote apps are capable of being run in isolation and/or within the container.
-- Remote apps are built intentionally to be framework agnostic.
