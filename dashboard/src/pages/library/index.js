@@ -11,7 +11,10 @@ export function Library() {
       <h1>Content Library</h1>
       <div style={{ display: "flex" }}>
         {data.map((d) => (
-          <div style={{ padding: 20, border: "1px solid red", margin: 10 }}>
+          <div
+            key={d.title}
+            style={{ padding: 20, border: "1px solid red", margin: 10 }}
+          >
             {d.title}
           </div>
         ))}
