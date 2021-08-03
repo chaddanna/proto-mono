@@ -7,7 +7,10 @@ const MountedDashboard = () => <MountedApp mountFn={dashboardMount} />;
 export function App() {
   return (
     <div>
-      <h1>[Container] NavigationComponent here</h1>
+      <h1>
+        [Container] This will have a NavigationComponent for routing through the
+        app
+      </h1>
       <hr />
       <MountedDashboard />
     </div>
